@@ -1,0 +1,45 @@
+{
+  "name": "@theoryofnekomata/kanjidic-database-importer",
+  "version": "0.0.1",
+  "description": "Script that imports parsed KANJIDIC data to a database.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Temoto-kun/kanjidic-database-importer.git"
+  },
+  "keywords": [
+    "dictionary",
+    "KANJIDIC",
+    "Japanese",
+    "Nihongo",
+    "Nippongo",
+    "language"
+  ],
+  "author": "TheoryOfNekomata <allan.crisostomo@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Temoto-kun/kanjidic-database-importer/issues"
+  },
+  "homepage": "https://github.com/Temoto-kun/kanjidic-database-importer#readme",
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-spec-reporter": "^2.5.0"
+  },
+  "scripts": {
+    "test": "eslint --env jasmine,node spec/**/*.js && node test.js",
+    "lint": "eslint --env es6,node src/**/*.js"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "@theoryofnekomata/eslint-config-q3-2016"
+  },
+  "dependencies": {
+    "byline": "^5.0.0",
+    "js2xmlparser": "^1.0.0",
+    "jsonfile": "^2.3.1",
+    "lodash.get": "^4.4.2",
+    "lodash.has": "^4.5.2",
+    "lodash.set": "^4.3.2",
+    "string.prototype.codepointat": "^0.2.0"
+  }
+}
