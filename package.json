@@ -34,12 +34,18 @@
     "extends": "@theoryofnekomata/eslint-config-q3-2016"
   },
   "dependencies": {
+    "bluebird": "^3.4.6",
     "byline": "^5.0.0",
+    "is-plain-object": "^2.0.1",
     "js2xmlparser": "^1.0.0",
     "jsonfile": "^2.3.1",
+    "knex": "^0.11.10",
     "lodash.get": "^4.4.2",
     "lodash.has": "^4.5.2",
     "lodash.set": "^4.3.2",
+    "mysql": "^2.11.1",
+    "pg": "^6.1.0",
+    "sqlite3": "^3.1.4",
     "string.prototype.codepointat": "^0.2.0"
   }
 }
