@@ -1,0 +1,58 @@
+{
+    "single": {
+        "radical.bushu": "integer",
+        "radical.kangxi": "integer",
+        "level.jouyou": "integer",
+        "level.jlpt": "integer",
+        "mapping.unicode": "integer",
+        "mapping.shift_jis": "integer",
+        "frequency": "integer",
+        "index.n": "integer",
+        "index.v": "integer",
+        "index.h": "integer",
+        "index.dp": "integer",
+        "index.dk": "integer",
+        "index.dl": "integer",
+        "index.l": "integer",
+        "index.dn": "integer",
+        "index.k": "integer",
+        "index.o": "integer",
+        "index.mn": "integer",
+        "index.mp.volume": "integer",
+        "index.mp.page": "integer",
+        "index.i": "integer",
+        "index.i.radical.strokes": "integer",
+        "index.i.remaining_strokes": "integer",
+        "index.i.order_in_sequence": "integer",
+        "index.in": "integer",
+        "index.e": "integer",
+        "kanji": "integer"
+    },
+    "multiple": {
+        "strokes": {
+            "strokes": "integer"
+        },
+        "meaning": {
+            "meaning": "string"
+        },
+        "on_reading": {
+            "reading.on": "string"
+        },
+        "kun_reading": {
+            "reading.kun.base": "string",
+            "reading.kun.okurigana": "string"
+        },
+        "nanori_reading": {
+            "reading.nanori": "string"
+        },
+        "name_as_radical": {
+            "reading.name_as_radical": "string"
+        },
+        "pinyin_reading": {
+            "reading.pinyin": "string"
+        },
+        "korean_reading": {
+            "reading.korean": "string"
+        }
+    }
+}
