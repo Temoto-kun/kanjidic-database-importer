@@ -1,6 +1,6 @@
 {
   "name": "@theoryofnekomata/kanjidic-database-importer",
-  "version": "0.0.1",
+  "version": "0.8.0",
   "description": "Script that imports parsed KANJIDIC data to a database.",
   "main": "index.js",
   "repository": {
