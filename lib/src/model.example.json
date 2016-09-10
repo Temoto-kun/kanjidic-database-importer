@@ -1,88 +1,91 @@
 {
     "single": {
-        "kanji": "string",
+        "character": "string:1",
         "radical": {
-            "bushu": "integer",
-            "kangxi": "integer"
+            "bushu": "integer:3",
+            "kangxi": "integer:3"
         },
         "level": {
-            "jouyou": "integer",
-            "jlpt": "integer"
+            "jouyou": "integer:2",
+            "jlpt": "integer:1"
         },
         "mapping": {
-            "unicode": "integer",
-            "shift_jis": "integer"
+            "unicode": "integer:8",
+            "shift_jis": "integer:8"
         },
-        "frequency": "integer",
+        "frequency": "integer:8",
+        "four_corner_code": "string:10",
+        "skip_code": "string:10",
         "index": {
-            "da": "integer",
-            "db": "integer",
-            "dc": "integer",
-            "df": "integer",
-            "dg": "integer",
-            "dh": "integer",
-            "dj": "integer",
-            "dk": "integer",
-            "dl": "integer",
-            "dm": "integer",
-            "dn": "integer",
-            "do": "integer",
-            "dp": "integer",
-            "dr": "integer",
-            "ds": "integer",
-            "dt": "integer",
-            "in": "integer",
-            "mn": "string",
+            "da": "integer:7",
+            "db": "integer:7",
+            "dc": "integer:7",
+            "df": "integer:7",
+            "dg": "integer:7",
+            "dh": "integer:7",
+            "dj": "integer:7",
+            "dk": "integer:7",
+            "dl": "integer:7",
+            "dm": "integer:7",
+            "dn": "integer:7",
+            "do": "integer:7",
+            "dp": "integer:7",
+            "dr": {
+                "upper_fragment_code": "integer:2",
+                "lower_fragment_code": "integer:2"
+            },
+            "ds": "integer:7",
+            "dt": "integer:7",
+            "in": "integer:7",
+            "mn": "string:7",
             "mp": {
-                "volume": "integer",
-                "page": "integer"
+                "volume": "integer:3",
+                "page": "integer:4"
             },
             "i": {
                 "radical": {
-                    "stroke_count": "integer",
-                    "id": "string"
+                    "stroke_count": "integer:3",
+                    "id": "string:1"
                 },
-                "remaining_strokes": "integer",
-                "order_in_sequence": "integer"
+                "remaining_strokes": "integer:3",
+                "order_in_sequence": "integer:3"
             },
-            "o": "string",
-            "h": "integer",
-            "k": "integer",
-            "n": "integer",
-            "v": "integer",
-            "l": "integer",
-            "e": "integer"
-        },
-        "four_corner_code": "string",
-        "skip_code": "string"
+            "o": "string:7",
+            "h": "integer:7",
+            "k": "integer:7",
+            "n": "integer:7",
+            "v": "integer:7",
+            "l": "integer:7",
+            "e": "integer:7"
+        }
     },
     "multiple": {
         "strokes": {
-            "strokes": "integer"
+            "strokes": "integer:3"
         },
         "meaning": {
-            "meaning": "string"
+            "meaning": "string:100"
         },
         "on_reading": {
-            "reading.on": "string"
+            "reading.on": "string:15"
         },
         "kun_reading": {
             "reading.kun": {
-                "base": "string",
-                "okurigana": "string"
+                "base": "string:15",
+                "okurigana": "string:10"
             }
         },
         "nanori_reading": {
-            "reading.nanori": "string"
+            "reading.nanori": "string:15"
         },
         "name_as_radical": {
-            "reading.name_as_radical": "string"
+            "reading.name_as_radical": "string:15"
         },
         "pinyin_reading": {
-            "reading.pinyin": "string"
+            "reading.pinyin": "string:7"
         },
         "korean_reading": {
-            "reading.korean": "string"
+            "reading.korean": "string:7"
         }
     }
 }
