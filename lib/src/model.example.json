@@ -60,8 +60,8 @@
         }
     },
     "multiple": {
-        "strokes": {
-            "strokes": "integer:3"
+        "stroke_count": {
+            "stroke_count": "integer:3"
         },
         "meaning": {
             "meaning": "string:100"
